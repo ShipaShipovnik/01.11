@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(74, 51, 33);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+
+}
+
+.subscription {
+    margin: 0 auto;
+    width: 1400px;
+    /* border: 1px solid #000000; */
+    display: flex;
+    background-color: rgb(253, 250, 245);
+}
+
+.sub-column {
+    width: 350px;
+}
+
+.hot {
+    background-color: rgb(242, 209, 181);
+}
+.hot h1 {
+    color: rgb(191, 84, 27)
+
+}
+
+
+.block {
+    padding: 30px;
+    border-bottom: rgb(158, 143, 143) 2px solid;
+}
+
+/* 1 */
+.subscription_first-block {
+    height: 100px;
+}
+
+.subscription_first-block h1 {
+    font-size: 24pt;
+    font-weight: 500;
+}
+
+/* 2 */
+.subscription_second-block {
+    height: 150px;
+
+}
+
+/* 3 */
+.subscription_three-block {
+    height: 150px;
+}
+
+/* 4 */
+.subscription_four-block {
+    height: 150px;
+}
+
+/* 5 */
+.subscription_five-block {
+    padding-top: 40px;
+    height: 250px;
+    text-align: center;
+    color: rgb(191, 84, 27);
+    border: none;
+}
+.subscription_five-block span {
+    font-size: 40pt;
+    color: rgb(191, 84, 27)
+}
+.subscription_five-block button {
+    font-size: 16pt;
+    color: white;
+    background-color:rgb(74, 51, 33); ;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: 600;
+    margin-top:30px ;
+}
+
+.hot .subscription_five-block button {
+    background-color: rgb(191, 84, 27)
+}
